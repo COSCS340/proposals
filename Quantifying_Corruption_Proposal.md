@@ -1,8 +1,8 @@
 # Quantifying Corruption Project Proposal
-William Lifferth
-Chris Dean
-Andrey Karnauch
-Kelsey Veca
+William Lifferth  
+Chris Dean  
+Andrey Karnauch  
+Kelsey Veca  
 
 ## Introduction
 The United States spent 3.15 billion dollars on lobbying in 2016. The trend of lobbying in the United States
