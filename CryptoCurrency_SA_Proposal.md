@@ -27,7 +27,7 @@ Nick Greene
 Introduction
 
 
-	Our proposition is to create a platform for analyzing online sentiment regarding
+Our proposition is to create a platform for analyzing online sentiment regarding
 cryptocurrencies over time. The cryptocurrency market is currently booming and redefining the
 way finance is handled across the world. The price of most cryptocurrency coins is incredibly
 volatile when compared to traditional financial constructs. The volatility means that there is
@@ -39,14 +39,14 @@ level. This project aims to gather sentiment data by scraping the web, and then 
 so that it might be analyzed in a useful way.
 
 
-	Team Codes-A-Lot is planning to experiment with text analysis and word association to
+Team Codes-A-Lot is planning to experiment with text analysis and word association to
 analyze changes in the public perception of cryptocurrency, and to determine if the public
 sentiment can be used to predict short-term rises and falls in the market values. We will be using
 standard text-analysis tools as well as machine-learning algorithms and scikit-learn’s neural
 network.
 
 
-	There are commercially available products that perform this sort of duty with varying
+There are commercially available products that perform this sort of duty with varying
 degrees of success, however, the team is not aware of any open-source projects that attempt
 anything this ambitious. We hope to produce a product that is both flexible and accurate.
 Our team includes four members, three of whom are current Computer Science
@@ -61,7 +61,7 @@ the project. Combining all our skillsets will allow us to produce an effective p
 Customer Value
 
 
-	The potential customers for this project are any person who has money invested in a
+The potential customers for this project are any person who has money invested in a
 cryptocurrency that our platform offers analysis for. Since the objective of investing is to make
 money, anyone invested in cryptocurrency wants just that: to make money. We aim to provide an
 interface that provides sentiment based information of a cryptocurrency that can be used as a tool
@@ -73,7 +73,7 @@ means for a customer to become a more informed investor, hopefully allowing them
 more money through crypto investing.
 
 
-	There are multiple ways that the success of our platform might be measured. The most
+There are multiple ways that the success of our platform might be measured. The most
 obvious way is if a user uses the tool and improves their crypto-folio more than they would have
 if the user had not used the platform. This would be a hard thing to measure effectively for
 multiple reasons. Firstly, it depends fully on the user using the tool to make real and accurate
@@ -89,7 +89,7 @@ returns positive sentiment over periods of time leading up to an increase in pri
 our system is providing meaningful insight.
 
 
-	Many commercial sentiment analysis platforms for cryptocurrency already exist. A simple
+Many commercial sentiment analysis platforms for cryptocurrency already exist. A simple
 google search for “Cryptocurrency sentiment analysis” yields many different results. However,
 all of them are subscription based. So if we were to make our project open source we would be
 creating something that does not yet exist on the market.
@@ -98,7 +98,7 @@ creating something that does not yet exist on the market.
 Solution and Technology
 
 
-	At the least our system needs to accomplish 3 seperate things. First, the software needs to
+At the least our system needs to accomplish 3 seperate things. First, the software needs to
 be able to acquire sentiment articles as well as cryptocurrency prices. Acquisition will be
 accomplished by scraping websites that have this data, such as search engines and social media
 websites. To create this part of the platform we will use freely available web scraping
@@ -109,7 +109,7 @@ will get price data directly from cryptocurrency exchanges, each of which typica
 Python API for getting prices.
 
 
-	The second piece is the sentiment analysis algorithm itself. The algorithm needs to take
+The second piece is the sentiment analysis algorithm itself. The algorithm needs to take
 as input a string of text and label it as having positive or negative sentiment. Since we only care
 about positive and negative sentiment, we will need to implement a second algorithm that
 determines whether or not an article is neutral so that we might filter out neutral articles
@@ -123,7 +123,7 @@ requires that the sentiment data itself is accurate, so other options of algorit
 as well as methods to improve those algorithms.
 
 
-	Last is the actual user interface for viewing sentiment analysis and pricing data. The
+Last is the actual user interface for viewing sentiment analysis and pricing data. The
 interface should allow the user to view historical prices of cryptocurrencies within specified time
 frames and view the level of sentiment for that same time period. The exact frameworks for
 creating this interface have not yet been decided, however node.js looks like one promising
@@ -131,7 +131,7 @@ option as it would allow the developers a straightforward route to creating a UI
 showing data through graphs and such.
 
 
-	After completing the basic requirements, we will be able to deliver some value to the
+After completing the basic requirements, we will be able to deliver some value to the
 customers because we’re allowing them to view sentiment analysis data alongside crypto prices,
 which is an useful investment tool as long as the sentiment data is accurate. The platform might
 be further improved by adding more tools for analyzing sentiment data. One such way to do this
@@ -150,7 +150,7 @@ an incremental basis, we can make sure the entire project functions as a whole.
 Team
 
 
-	Previously, two members of the current team (Calvin and Isaac) have created the beginning code
+Previously, two members of the current team (Calvin and Isaac) have created the beginning code
 base for the project, so they are familiar with many of the necessary tools. Additionally
 Savannah has some experience web scraping by working with Selenium, which is the primary
 tool we will be using to collect data from the web. Nick does not have experience with the
@@ -158,7 +158,7 @@ specific Python libraries we will be leveraging, but does have some experience w
 language.
 
 
-	The roles within the group will be highly flexible, with Isaac acting as the team leader. Since
+The roles within the group will be highly flexible, with Isaac acting as the team leader. Since
 we’re a 4 person team, each member will likely be required a number of different types of tasks
 throughout the project. Roles will be assigned during each sprint so that each member has a
 specific piece of the project to work on at all times.
@@ -167,7 +167,7 @@ specific piece of the project to work on at all times.
 Project Management
 
 
-	Completion of a sentiment analysis interface as well as the systems for acquiring and creating the
+Completion of a sentiment analysis interface as well as the systems for acquiring and creating the
 data should be doable within the few months we will be in this class, especially since some of the
 desired functionality has already been implemented. We plan to meet weekly face to face to
 discuss individual progress and help each other if someone is stuck. Our main goals are monthly,
@@ -220,7 +220,7 @@ negative articles
 -Week 12: Wrap up / create presentation
 
 
-	As far as we are aware there are no constraints to this project. As our resources are online articles
+As far as we are aware there are no constraints to this project. As our resources are online articles
 that the public views and cryptocurrency prices, we should have no trouble accessing these
 resources. If the full scope of this project cannot be completed, we will still have useful metrics
 on how people are currently feeling about cryptocurrencies. Even if we end up unable to create a
@@ -231,7 +231,7 @@ show trends in sentiment over time, as well as current sentiments.
 Reflection
 
 
-	With our team members strengths regarding the software we plan to use, as well as already
+With our team members strengths regarding the software we plan to use, as well as already
 having the beginnings of code, we think that this project is completely doable within the time
 frame of this course. We also believe that with the rise in both popularity and number of
 cryptocurrencies, this tool would be very interesting to create and to analyze. While we believe
